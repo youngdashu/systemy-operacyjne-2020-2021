@@ -1,0 +1,6 @@
+"merge_files","./przykladyTxt/test1_ashort.txt:./przykladyTxt/test1_bshort.txt","./przykladyTxt/test1_ashort.txt:./przykladyTxt/test1_bshort.txt","./przykladyTxt/test1_ashort.txt:./przykladyTxt/test1_bshort.txt"
+
+"merge_files","./przykladyTxt/test1_amed.txt:./przykladyTxt/test1_bmed.txt","./przykladyTxt/test1_amed.txt:./przykladyTxt/test1_bmed.txt","./przykladyTxt/test1_amed.txt:./przykladyTxt/test1_bmed.txt"
+
+"merge_files","./przykladyTxt/test1_along.txt:./przykladyTxt/test1_blong.txt","./przykladyTxt/test1_along.txt:./przykladyTxt/test1_blong.txt","./przykladyTxt/test1_along.txt:./przykladyTxt/test1_blong.txt"
+

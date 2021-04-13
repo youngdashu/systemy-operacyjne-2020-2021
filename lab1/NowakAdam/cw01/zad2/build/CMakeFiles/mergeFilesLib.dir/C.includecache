@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad2/mergeFilesLib.c
+mergeFilesLib.h
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad2/mergeFilesLib.h
+
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad2/mergeFilesLib.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

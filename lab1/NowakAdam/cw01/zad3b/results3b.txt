@@ -1,0 +1,807 @@
+////////////
+komentarz:
+
+Czasy dzialania operacji sa bardzo zblizone do siebie bez wzgledu na rodzaj optymalizacji jak i rodzaj biblioteki
+
+///////////
+
+
+Rodzaj biblioteki: Statyczna Poziom kompilacji: -O0 
+
+
+pliki krotkie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.020000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ pliki srednie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.070000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.040000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.040000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.030000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.020000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.030000
+ pliki dlugie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.050000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.030000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.020000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.020000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.470000 sekund czas CPU 0.150000 sekund czas uzytkownika 0.300000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.320000 sekund czas CPU 0.090000 sekund czas uzytkownika 0.240000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.030000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.250000 sekund czas CPU 0.040000 sekund czas uzytkownika 0.200000
+
+
+Rodzaj biblioteki: Statyczna Poziom kompilacji: -O1 
+
+
+pliki krotkie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.020000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ pliki srednie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.070000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.040000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.040000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.030000
+ pliki dlugie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.060000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.030000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.020000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.020000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.030000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.490000 sekund czas CPU 0.150000 sekund czas uzytkownika 0.290000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.310000 sekund czas CPU 0.050000 sekund czas uzytkownika 0.220000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.050000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.030000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.280000 sekund czas CPU 0.040000 sekund czas uzytkownika 0.230000
+
+
+Rodzaj biblioteki: Statyczna Poziom kompilacji: -O3 
+
+
+pliki krotkie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.010000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ pliki srednie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.070000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.030000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.050000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.030000
+ pliki dlugie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.070000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.030000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.040000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.020000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.490000 sekund czas CPU 0.130000 sekund czas uzytkownika 0.320000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.310000 sekund czas CPU 0.050000 sekund czas uzytkownika 0.220000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.050000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.030000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.270000 sekund czas CPU 0.030000 sekund czas uzytkownika 0.220000
+
+
+Rodzaj biblioteki: Wspoldzielona Poziom kompilacji: -O0 
+
+
+pliki krotkie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.020000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ pliki srednie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.070000 sekund czas CPU 0.030000 sekund czas uzytkownika 0.040000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.030000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.030000
+ pliki dlugie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.050000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.040000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.020000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.030000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.530000 sekund czas CPU 0.160000 sekund czas uzytkownika 0.360000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.320000 sekund czas CPU 0.070000 sekund czas uzytkownika 0.220000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.020000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.290000 sekund czas CPU 0.030000 sekund czas uzytkownika 0.230000
+
+
+Rodzaj biblioteki: Wspoldzielona Poziom kompilacji: -O1 
+
+
+pliki krotkie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.020000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.010000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ pliki srednie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.080000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.040000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.040000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.030000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.020000
+ pliki dlugie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.010000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.060000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.050000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.020000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.460000 sekund czas CPU 0.130000 sekund czas uzytkownika 0.320000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.280000 sekund czas CPU 0.060000 sekund czas uzytkownika 0.220000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.030000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.250000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.220000
+
+
+Rodzaj biblioteki: Wspoldzielona Poziom kompilacji: -O3 
+
+
+pliki krotkie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.030000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.010000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.010000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.000000
+ pliki srednie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.070000 sekund czas CPU 0.030000 sekund czas uzytkownika 0.040000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.020000
+ pliki dlugie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.050000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.030000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.020000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.020000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.480000 sekund czas CPU 0.130000 sekund czas uzytkownika 0.330000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.310000 sekund czas CPU 0.080000 sekund czas uzytkownika 0.210000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.030000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.280000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.220000
+
+
+Rodzaj biblioteki: Dynamiczna Poziom kompilacji: -O0 
+
+
+pliki krotkie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.040000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.020000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.010000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.000000
+ pliki srednie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.060000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.050000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.020000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.020000
+ pliki dlugie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.050000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.030000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.020000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.020000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.450000 sekund czas CPU 0.120000 sekund czas uzytkownika 0.320000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.290000 sekund czas CPU 0.080000 sekund czas uzytkownika 0.210000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.020000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.240000 sekund czas CPU 0.050000 sekund czas uzytkownika 0.200000
+
+
+Rodzaj biblioteki: Dynamiczna Poziom kompilacji: -O1 
+
+
+pliki krotkie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.040000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.010000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ pliki srednie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.070000 sekund czas CPU 0.030000 sekund czas uzytkownika 0.040000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.040000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.020000
+ pliki dlugie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.070000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.030000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.040000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.530000 sekund czas CPU 0.140000 sekund czas uzytkownika 0.330000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.310000 sekund czas CPU 0.080000 sekund czas uzytkownika 0.210000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.050000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.030000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.280000 sekund czas CPU 0.040000 sekund czas uzytkownika 0.230000
+
+
+Rodzaj biblioteki: Dynamiczna Poziom kompilacji: -O3 
+
+
+pliki krotkie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.020000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.010000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.010000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ pliki srednie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.020000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.080000 sekund czas CPU 0.030000 sekund czas uzytkownika 0.050000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.040000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.020000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.030000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ pliki dlugie
+test dla 3 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS USUWANIA 3 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.000000
+ CZAS DODANIA 3 BLOKOW I USUWANIA 3 BLOKOW 
+czas rzeczywisty 0.010000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.000000
+ test dla 100 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.050000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.030000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ CZAS USUWANIA 100 BLOKOW
+czas rzeczywisty 0.000000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.010000
+ CZAS DODANIA 100 BLOKOW I USUWANIA 100 BLOKOW 
+czas rzeczywisty 0.020000 sekund czas CPU 0.010000 sekund czas uzytkownika 0.020000
+ test dla 1000 par 
+CZAS MERGEOWANIA PAR PLIKOW
+czas rzeczywisty 0.450000 sekund czas CPU 0.160000 sekund czas uzytkownika 0.290000
+ CZAS TWORZENIA BLOKOW
+czas rzeczywisty 0.270000 sekund czas CPU 0.070000 sekund czas uzytkownika 0.190000
+ CZAS USUWANIA 1000 BLOKOW
+czas rzeczywisty 0.030000 sekund czas CPU 0.000000 sekund czas uzytkownika 0.030000
+ CZAS DODANIA 1000 BLOKOW I USUWANIA 1000 BLOKOW 
+czas rzeczywisty 0.240000 sekund czas CPU 0.040000 sekund czas uzytkownika 0.210000

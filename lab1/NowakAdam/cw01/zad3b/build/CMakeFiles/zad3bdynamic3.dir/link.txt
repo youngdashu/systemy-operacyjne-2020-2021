@@ -1,0 +1,1 @@
+/usr/bin/cc -std=gnu11 CMakeFiles/zad3bdynamic3.dir/zad3b_dynamic.c.o -o zad3bdynamic3  -ldl 

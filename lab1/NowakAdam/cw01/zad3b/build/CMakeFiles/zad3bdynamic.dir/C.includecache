@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad3b/zad3b_dynamic.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+sys/times.h
+-
+unistd.h
+-
+dlfcn.h
+-
+

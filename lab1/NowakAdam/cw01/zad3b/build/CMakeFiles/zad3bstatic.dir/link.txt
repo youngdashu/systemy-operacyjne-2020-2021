@@ -1,0 +1,1 @@
+/usr/bin/cc -std=gnu11 CMakeFiles/zad3bstatic.dir/zad3b.c.o -o zad3bstatic  libmergeFilesLibStatic.a 

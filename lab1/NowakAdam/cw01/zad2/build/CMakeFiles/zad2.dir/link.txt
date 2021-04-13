@@ -1,0 +1,1 @@
+/usr/bin/cc -std=gnu11 CMakeFiles/zad2.dir/zad2.c.o -o zad2  libmergeFilesLib.a 

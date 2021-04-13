@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmergeFilesLibStatic1.a CMakeFiles/mergeFilesLibStatic1.dir/mergeFilesLib.c.o
+/usr/bin/ranlib libmergeFilesLibStatic1.a

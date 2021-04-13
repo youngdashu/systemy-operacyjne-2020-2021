@@ -1,0 +1,8 @@
+Wariant lib
+
+Czas dzialania: rzeczywisty: 1.770000 uzytkownika 1.630000 CPU 0.090000 
+
+Wariant sys
+
+Czas dzialania: rzeczywisty: 2.290000 uzytkownika 1.600000 CPU 0.650000 
+

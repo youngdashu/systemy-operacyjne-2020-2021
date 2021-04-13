@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -std=gnu11 -shared  -o lib/libmergeFilesLibDynamic.so CMakeFiles/mergeFilesLibDynamic.dir/mergeFilesLib.c.o 

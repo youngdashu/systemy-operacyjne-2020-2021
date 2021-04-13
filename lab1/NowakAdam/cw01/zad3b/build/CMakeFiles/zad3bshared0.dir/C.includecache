@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad3b/mergeFilesLib.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad3b/zad3b.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+sys/times.h
+-
+unistd.h
+-
+dlfcn.h
+-
+mergeFilesLib.h
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad3b/mergeFilesLib.h
+

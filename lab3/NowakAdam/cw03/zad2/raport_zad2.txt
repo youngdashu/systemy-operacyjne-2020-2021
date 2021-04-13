@@ -1,0 +1,12 @@
+short n: 3 Czas rzeczywisty: 0.000000, czas uzytkownika: 0.000000, czas cpu: 0.000000 pid: 3219
+short n: 30 Czas rzeczywisty: 0.010000, czas uzytkownika: 0.000000, czas cpu: 0.000000 pid: 3219
+short n: 300 Czas rzeczywisty: 0.120000, czas uzytkownika: 0.000000, czas cpu: 0.010000 pid: 3219
+med n: 3 Czas rzeczywisty: 0.000000, czas uzytkownika: 0.000000, czas cpu: 0.000000 pid: 3219
+med n: 30 Czas rzeczywisty: 0.020000, czas uzytkownika: 0.000000, czas cpu: 0.000000 pid: 3219
+med n: 300 Czas rzeczywisty: 0.150000, czas uzytkownika: 0.000000, czas cpu: 0.020000 pid: 3219
+long n: 3 Czas rzeczywisty: 0.010000, czas uzytkownika: 0.000000, czas cpu: 0.000000 pid: 3219
+long n: 30 Czas rzeczywisty: 0.030000, czas uzytkownika: 0.000000, czas cpu: 0.000000 pid: 3219
+long n: 300 Czas rzeczywisty: 0.340000, czas uzytkownika: 0.000000, czas cpu: 0.020000 pid: 3219
+
+Testy czasowe dla uzytych plikow podaja gorsze czasy niz dla mergeowania w jednym procesie. Jest to spowodowane tym, ze stworzenie
+nowego procesu jest czasochlonne oraz procesy musza czekac na dostep do plikow, ktore chca mergeowac.

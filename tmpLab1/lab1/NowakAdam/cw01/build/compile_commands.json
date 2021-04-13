@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/youngdashu/sysopy/lab1/NowakAdam/cw01/build",
+  "command": "/usr/bin/gcc   -std=gnu11 -g -o CMakeFiles/mergeFilesLib.dir/mergeFilesLib.c.o -c /home/youngdashu/sysopy/lab1/NowakAdam/cw01/mergeFilesLib.c",
+  "file": "/home/youngdashu/sysopy/lab1/NowakAdam/cw01/mergeFilesLib.c"
+},
+{
+  "directory": "/home/youngdashu/sysopy/lab1/NowakAdam/cw01/build",
+  "command": "/usr/bin/gcc   -std=gnu11 -g -o CMakeFiles/main.dir/main.c.o -c /home/youngdashu/sysopy/lab1/NowakAdam/cw01/main.c",
+  "file": "/home/youngdashu/sysopy/lab1/NowakAdam/cw01/main.c"
+}
+]

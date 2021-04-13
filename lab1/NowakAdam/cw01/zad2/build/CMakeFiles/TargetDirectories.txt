@@ -1,0 +1,4 @@
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad2/build/CMakeFiles/rebuild_cache.dir
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad2/build/CMakeFiles/edit_cache.dir
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad2/build/CMakeFiles/mergeFilesLib.dir
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad2/build/CMakeFiles/zad2.dir

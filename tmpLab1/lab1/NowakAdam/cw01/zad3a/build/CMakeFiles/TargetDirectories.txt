@@ -1,0 +1,8 @@
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad3a/build/CMakeFiles/rebuild_cache.dir
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad3a/build/CMakeFiles/mergeFilesLibDynamic.dir
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad3a/build/CMakeFiles/mergeFilesLibShared.dir
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad3a/build/CMakeFiles/mergeFilesLibStatic.dir
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad3a/build/CMakeFiles/zad3adynamic.dir
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad3a/build/CMakeFiles/zad3ashared.dir
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad3a/build/CMakeFiles/edit_cache.dir
+/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad3a/build/CMakeFiles/zad3astatic.dir
