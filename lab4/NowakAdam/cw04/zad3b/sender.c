@@ -122,12 +122,12 @@ void case_sigque(int n, int catcherPID){
     sigaction(SIGUSR1, &infoActionStructQueueSender, NULL);
     sigaction(SIGUSR2, &infoActionStructQueueSender, NULL);
 
-    // maska blokaujaca
-    sigset_t setWithSigusr12;//, setWithSigusr2;
+    // maska blokujaca
+    sigset_t setWithSigusr12;
     sigemptyset(&setWithSigusr12);
     sigaddset(&setWithSigusr12, SIGUSR1);
     sigaddset(&setWithSigusr12, SIGUSR2);
-    sigprocmask(SIG_SETMASK, &setWithSigusr12, NULL);
+    sigprocmask(SIG_BLOCK, &setWithSigusr12, NULL);
 
     
     // wyslij n sygnalow sigusr1 do catchera, zaczekaj na potwierdzenie i zakoncz sigusr2
@@ -196,7 +196,7 @@ void case_sigrt(int n, int catcherPID){
     sigemptyset(&setWithSigrt);
     sigaddset(&setWithSigrt, SIGRTMIN);
     sigaddset(&setWithSigrt, SIGRTMIN+1);
-    sigprocmask(SIG_SETMASK, &setWithSigrt, NULL);
+    sigprocmask(SIG_BLOCK, &setWithSigrt, NULL);
     
     // wyslij n sygnalow sigrtmin do catchera, zaczekaj na potwierdzenie i zakoncz sigrtmin+1
     for(int i = 0; i < n; i++){

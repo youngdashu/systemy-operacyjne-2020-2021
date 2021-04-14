@@ -42,11 +42,9 @@ int main(int argc, char* argv[]){
 
     } else{
         printf("zly argument\n");
-        free(arg);
         exit(EXIT_FAILURE);
     }
 
-    free(arg);
     return 0;
 
 

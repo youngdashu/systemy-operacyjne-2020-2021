@@ -167,13 +167,20 @@ void case_siqqueue(char* catcherPIDstr ,char* nStr ,char* sendMode){
 }
 
 void case_sigrt_handle(int signo, siginfo_t *info, void* context){
+
     if(signo==SIGRTMIN){
+
         howManySignalsCaught++;
         senderPID = info->si_pid;
+
     } else if(signo==SIGRTMIN+1){
+
         sigusr2Caught = 1;
+
     } else{
+
         printf("illegal sygnal caught\n");
+
     }
     return;
 }
@@ -193,7 +200,7 @@ void case_sigrt(char* catcherPIDstr ,char* nStr ,char* sendMode){
     struct sigaction infoActionStruct;
     infoActionStruct.sa_flags = 0;
     infoActionStruct.sa_flags |= SA_SIGINFO;
-    infoActionStruct.sa_sigaction = case_kill_handle;
+    infoActionStruct.sa_sigaction = case_sigrt_handle;
 
     printf("%i\n", getpid());
 
@@ -205,7 +212,7 @@ void case_sigrt(char* catcherPIDstr ,char* nStr ,char* sendMode){
     sigaddset(&setWithSigrt, SIGRTMIN);
     sigaddset(&setWithSigrt, SIGRTMIN+1);
 
-    sigprocmask(SIG_SETMASK, &setWithSigrt, NULL);
+    sigprocmask(SIG_BLOCK, &setWithSigrt, NULL);
 
     if(vfork()==0){
         execl("./sender", "sender", catcherPIDstr , nStr, sendMode, NULL);

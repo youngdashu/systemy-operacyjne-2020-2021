@@ -6,9 +6,6 @@
 #include<sys/wait.h>
 #include<signal.h>
 
-// int howManySignalsCaught = 0;
-// int sigusr2Caught = 0;
-// int senderPID = -1;
 
 volatile sig_atomic_t howManySignalsCaught = 0;
 volatile sig_atomic_t sigusr2Caught = 0;
@@ -31,8 +28,6 @@ void case_sigqueue_handle(int signo, siginfo_t *info, void* context){
     if(signo==SIGUSR1){
 
         howManySignalsCaught++;
-        // TO DO
-        // info->si_value.sival_int
 
     } else if(signo==SIGUSR2){
 
@@ -129,12 +124,10 @@ void case_siqqueue(char* catcherPIDstr ,char* nStr ,char* sendMode){
     // odeslij tyle sygnalow ile zlapales
     int lastSignalSentID = 1;
     for(int i = 0; i < howManySignalsCaught; i++){
-        // kill(senderPID, SIGUSR1);
         union sigval signalID;
         signalID.sival_int = lastSignalSentID++;
         sigqueue(senderPID, SIGUSR1, signalID);
     }
-    // kill(senderPID, SIGUSR2);
 
     union sigval signalID;
     signalID.sival_int = lastSignalSentID;
@@ -222,10 +215,7 @@ int main(int argc, char* argv[]){
         exit(EXIT_FAILURE);
     }
 
-    // int n = atoi(argv[1]);
     char* nStr = strdup(argv[1]);
-
-    // printf("catcher n: %s\n", nStr);
 
     char* sendMode = strdup(argv[2]);
 
@@ -236,8 +226,6 @@ int main(int argc, char* argv[]){
     if(strcmp(sendMode, "kill")==0){
 
         case_kill(catcherPIDstr ,nStr, sendMode);
-        
-        // execl("./sender", "sender", catcherPIDstr ,nStr, sendMode, NULL);
 
     } else if(strcmp(sendMode, "sigqueue")==0){
 
@@ -250,7 +238,6 @@ int main(int argc, char* argv[]){
     } else{
         printf("Zly tryb wysylania\n");
     }
-
 
     free(nStr);
     free(sendMode);

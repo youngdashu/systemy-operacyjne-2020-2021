@@ -34,11 +34,9 @@ void case_sigqueue_handle_sigusr(int signo, siginfo_t *info, void* context){
 
     if(signo==SIGUSR1){
 
-        // printf("sender odbiera od catchera numerek: %i\n", info->si_value.sival_int);
+
 
         signalsReceivedFromCatcher=info->si_value.sival_int;
-
-        // printf("sender odbiera od catchera numerek: %i\n", signalsReceivedFromCatcher);
 
     } else if(signo==SIGUSR2){
 
@@ -103,8 +101,6 @@ void case_sigque(int n, int catcherPID){
     infoActionStructQueueSender.sa_flags = 0;
     infoActionStructQueueSender.sa_flags |= SA_SIGINFO;
     infoActionStructQueueSender.sa_sigaction = &case_sigqueue_handle_sigusr;
-    // signal(SIGUSR2, case_sigqueue_handle_sigusr);
-    // signal(SIGUSR1, case_sigqueue_handle_sigusr);
 
     sigaction(SIGUSR1, &infoActionStructQueueSender, NULL);
     sigaction(SIGUSR2, &infoActionStructQueueSender, NULL);
@@ -114,12 +110,10 @@ void case_sigque(int n, int catcherPID){
     int lastSignalSentID = 1;
     for(int i = 0; i < n; i++){
 
-        // kill(catcherPID, SIGUSR1);
         union sigval signalID;
         signalID.sival_int = lastSignalSentID++;
         sigqueue(catcherPID, SIGUSR1, signalID);
     }
-    // kill(catcherPID, SIGUSR2);
     union sigval signalID;
     signalID.sival_int = lastSignalSentID;
     sigqueue(catcherPID, SIGUSR2, signalID);
@@ -199,8 +193,6 @@ int main(int argc, char* argv[]){
     int catcherPID = atoi(argv[1]);
 
     int n = atoi(argv[2]);
-
-    // printf("Sender n: %i pid: %i\n", n, catcherPID);
 
     char* sendMode = strdup(argv[3]);
 

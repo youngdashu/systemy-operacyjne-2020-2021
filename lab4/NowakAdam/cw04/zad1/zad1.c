@@ -3,7 +3,7 @@
 #include<sys/types.h>
 #include<unistd.h>
 #include<string.h>
-
+#include<sys/wait.h>
 #include<signal.h>
 
 void err_sys(const char* err){
@@ -17,8 +17,6 @@ void case_ignore(){
 
     raise(SIGUSR1);
 
-    // signal(SIGUSR1, SIG_IGN);
-
     printf("FORK\n");
 
     if(fork() == 0){
@@ -29,14 +27,16 @@ void case_ignore(){
 
     } else{
 
-        int res, stat;
-        while( (res=  wait(&stat) ) > 0);
+        wait(NULL);
     }
 
     printf("EXEC\n");
-
-    execl("./child", "child", "ignore");
-
+    if (vfork()==0){
+        execl("./child", "child", "ignore", NULL);
+    } else{
+        wait(NULL);
+    }
+    
 }
 
 void handler(int signum){
@@ -59,10 +59,10 @@ void case_handler(){
         exit(EXIT_SUCCESS);
 
     } else{
-
-        int res, stat;
-        while( (res=  wait(&stat) ) > 0);
+        wait(NULL);
     }
+
+    return;
 
 }
 
@@ -93,7 +93,11 @@ void case_mask(){
 
     printf("EXEC\n");
 
-    execl("./child", "child", "mask");
+    if (vfork()==0){
+        execl("./child", "child", "mask", NULL);
+    } else{
+        wait(NULL);
+    }
 
     return;
 
@@ -138,8 +142,13 @@ void case_pending(){
 
     printf("EXEC\n");
 
-    execl("./child", "child", "pending", NULL);
+    if (vfork()==0){
+        execl("./child", "child", "pending", NULL);
+    } else{
+        wait(NULL);
+    }
 
+    return;
 
 }
 
