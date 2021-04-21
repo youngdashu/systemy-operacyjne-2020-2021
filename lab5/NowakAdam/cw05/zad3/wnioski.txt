@@ -1,0 +1,21 @@
+Potoki nazwane dzialaja dla niezaleznych procesow:
+        Zostaly otwarte 2 terminale, w jednym tworzymy potok nazwany
+        poleceniem mkfifo ./pipeFolder/pipe
+        nastepnie tworzymy konsumenta poleceniem
+        ./consumer ./pipeFolder/pipe consumerFile.txt 5
+        W osobnym terminalu tworzymy producenta poleceniem
+        ./producer ./pipeFolder/pipe 0 producer0.txt 5
+        Programy zadzialaly poprawnie i w pliku wynikowym znalazla
+        sie tresc przeslana przez potok.
+        Na koniec usuwamy potok nazwany poleceniem 
+        unlink ./pipeFolder/pipe
+
+Napisany zostal program, ktory tworzy potok nazwany, a nastepnie
+uruchamia Producentow i Konsumentow.
+Wywolujemy go poleceniem 
+./wrapper <liczba producentow> <liczba konsumentow> <liczba znakow do odczytu>
+
+Nastepnie zostal napisany skrypt, ktory umozliwia wywolanie testow
+dla roznych przypadkow i zweryfikowanie poprawnosci
+Polecenie:
+make test
