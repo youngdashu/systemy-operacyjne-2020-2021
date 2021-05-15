@@ -1,0 +1,12 @@
+Wnioski z dzialania:
+
+    3 kucharzy, 3 dostawcow
+    Kucharze dzialaja szybciej niz dostawcy, wiec liczba pizz na stole
+    jest wieksza niz liczba pizz w piecu. Czasem kucharze musza oczekiwac
+    az miejsce na stole zwolni sie.
+    Dzieki zastosowaniu semaforow dzialanie jest synchronizowane.
+
+    6 kucharzy, 9 dostawcow
+    Dostawcow jest wiecej niz kucharzy, wiec stol nie jest zapelniany do pelna.
+    Kucharze sprawiaja, ze piec jest wypelnony lub prawie wypelniony przez wiekszosc czasu.
+    Dzialanie jest synchronizowane poprawnie.
