@@ -1,6 +1,0 @@
-/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad1/build/CMakeFiles/rebuild_cache.dir
-/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad1/build/CMakeFiles/edit_cache.dir
-/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad1/build/CMakeFiles/mergeFilesLibShared.dir
-/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad1/build/CMakeFiles/mergeFilesLibStatic.dir
-/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad1/build/CMakeFiles/zad1shared.dir
-/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad1/build/CMakeFiles/zad1static.dir

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmergeFilesLib.a CMakeFiles/mergeFilesLib.dir/mergeFilesLib.c.o
-/usr/bin/ranlib libmergeFilesLib.a

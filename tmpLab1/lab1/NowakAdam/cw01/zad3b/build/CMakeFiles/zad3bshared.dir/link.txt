@@ -1,1 +1,0 @@
-/usr/bin/cc -std=gnu11 CMakeFiles/zad3bshared.dir/zad3b.c.o -o zad3bshared  -Wl,-rpath,/home/youngdashu/sysopy/lab1/NowakAdam/cw01/zad3b/build/lib lib/libmergeFilesLibShared.so 

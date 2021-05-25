@@ -1,1 +1,0 @@
-/usr/bin/gcc -std=gnu11 -g CMakeFiles/main.dir/main.c.o -o main  libmergeFilesLib.a 

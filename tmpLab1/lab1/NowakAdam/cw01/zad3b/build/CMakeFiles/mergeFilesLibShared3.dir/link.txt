@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -std=gnu11 -shared -Wl,-soname,libmergeFilesLibShared3.so -o lib/libmergeFilesLibShared3.so CMakeFiles/mergeFilesLibShared3.dir/mergeFilesLib.c.o 
